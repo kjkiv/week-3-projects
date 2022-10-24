@@ -1,4 +1,3 @@
-# week-3-Project
 int[] ages = {3, 9, 23, 64, 2, 8, 28, 93};
 int lengthOfArr = ages.length;
  		int difference = Math.abs(ages[lengthOfArr - lengthOfArr] - ages[lengthOfArr - 1]);
@@ -12,3 +11,6 @@ int lengthOfArr = ages.length;
          int sum = 0;
  		for (int i = 0; i < newAges.length; i++) {
  			sum += newAges[i];
+ 		}
+ 		double average = sum / lengthOfArr;
+ 		System.out.println("The average age in newAges[] = " + average );
